@@ -14,8 +14,8 @@ def fizzbuzz():
     else:
         i += 1
         if not(i % 3) and not (i % 5):
-            print("FizzBuzz", end='')
+            print("FizzBuzz", end=' ')
         if not (i % 5):
-            print("Buzz", end='')
+            print("Buzz", end=' ')
         if not(i % 3):
-            print("Fizz", end='')
+            print("Fizz", end=' ')
