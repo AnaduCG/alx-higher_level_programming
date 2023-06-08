@@ -1,8 +1,9 @@
 #!/usr/bin/ python3
-from add_0 import add
-a = 1
-b = 2
-print("1 + 2 = {}".format(add(a, b)))
+def print_sum():
+    from add_0 import add
+    a = 1
+    b = 2
+    print("1 + 2 = {}".format(add(a, b)))
 
 if __name__=="__main__":
-    sum()
+    print_sum()
