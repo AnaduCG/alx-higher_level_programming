@@ -4,6 +4,8 @@ def sys_arg():
     sys.argv.pop(0)
     if len(sys.argv) == 1:
         print("{} argument:".format(len(sys.argv)))
+    elif len(sys.argv) == 0:
+        print("{} arguments.".format(len(sys.argv)))
     else:
         print("{} arguments:".format(len(sys.argv)))
     for i in range(len(sys.argv)):
