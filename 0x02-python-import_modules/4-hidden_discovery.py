@@ -4,7 +4,7 @@ def hd():
 
     names = dir(hidden_4)
     for name in names:
-        if name[0] == '_':
+        if name[0].isalnum():
             print("{}".format(name))
 
 
