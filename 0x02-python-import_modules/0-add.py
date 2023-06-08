@@ -5,5 +5,6 @@ def print_sum():
     b = 2
     print("1 + 2 = {:d}".format(add(a, b)))
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     print_sum()
