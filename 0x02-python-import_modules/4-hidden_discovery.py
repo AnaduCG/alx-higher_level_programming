@@ -4,7 +4,7 @@ def hd():
     names = dir(hidden)
     hidden_names = sorted(names for name in names if not name.startswith('_'))
     for i in hidden_names:
-            print("{}".format(hidden_names))
+        print("{}".format(hidden_names))
 
 
 if __name__ == "__main__":
