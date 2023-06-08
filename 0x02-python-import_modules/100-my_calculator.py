@@ -13,7 +13,7 @@ def b_calculator():
         print("{} + {} = {}".format(a, b, a + b))
     elif sn == '-':
         print("{} - {} = {}".format(a, b, a - b))
-    elif sn == '*':
+    elif ord(sn) == 42:
         print("{} * {} = {}".format(a, b, a * b))
     elif sn == '/':
         print("{} / {} = {}".format(a, b, a / b))

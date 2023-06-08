@@ -3,6 +3,7 @@ def hd():
     import hidden_4
 
     names = dir(hidden_4)
+    names.sort()
     for name in names:
         if name[0] != '_':
             print("{}".format(name))
