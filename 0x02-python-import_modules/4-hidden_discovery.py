@@ -3,7 +3,7 @@ def hd():
     from hidden_4 as hidden
     hidden_names = dir(hidden)
     for i in hidden_names:
-         print("{}".format(hidden_names))
+        print("{}".format(hidden_names))
 
 
 if __name__ == "__main__":
