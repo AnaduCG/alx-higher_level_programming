@@ -1,4 +1,4 @@
-#!/usr/bin/ python3
+#!/usr/bin/python3
 def print_sum():
     from add_0 import add
     a = 1
