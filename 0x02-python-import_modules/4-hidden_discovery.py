@@ -2,9 +2,8 @@
 def hd():
     from hidden_4 as hidden
     names = dir(hidden)
-    hidden_names = sorted(names)
+    hidden_names = sorted(names for name in names if not name.startswith('_'))
     for i in hidden_names:
-        if i[0] != '_':
             print("{}".format(hidden_names))
 
 
