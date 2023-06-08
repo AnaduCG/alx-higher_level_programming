@@ -6,8 +6,8 @@ def b_calculator():
     if len(arg) != 4:
         print("Usage: {} <a> <operator> <b>".format(arg[0]))
         exit(1)
-    a = arg[1]
-    b = arg[3]
+    a = int(arg[1])
+    b = int(arg[3])
     sn = arg[2]
     if sn == '+':
         print("{} + {} = {}".format(a, b, a + b))
