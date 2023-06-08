@@ -3,10 +3,10 @@ def f_calc():
     from calculator_1 import add, sub, mul, div
     a = 10
     b = 5
-    print("10 + 5 = {}".format(add(a, b)))
-    print("10 - 5 = {}".format(sub(a, b)))
-    print("10 * 5 = {}".format(mul(a, b)))
-    print("10 / 5 = {}".format(div(a, b)))
+    print("{:d} + {:d} = {}".format(a, b, add(a, b)))
+    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
+    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
+    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
 
 
 if __name__ == "__main__":
