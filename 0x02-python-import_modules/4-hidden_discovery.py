@@ -6,5 +6,7 @@ def hd():
     for name in names:
         if name[0] == '_':
             print("{}".format(name))
+
+
 if __name__ == "__main__":
     hd()
