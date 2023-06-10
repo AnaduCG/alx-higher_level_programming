@@ -7,6 +7,6 @@
 
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
-        for n in i:
-            print("{:2d}".format(n), end='')
-        print('$')
+        for j in i:
+            print(j, end='')
+        print("$")
