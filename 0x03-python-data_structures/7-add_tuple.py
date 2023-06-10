@@ -6,4 +6,16 @@
 
 
 def add_tuple(tuple_a=(), tuple_b=()):
-    if len(tuple_a) < 2 or len(tuple_b) < 2:
+    ta = list(tuple_a)
+    tb = list(tuple_b)
+    if len(ta) < 1:
+        ta.append(0)
+    if len(ta) < 2:
+        ta.append(0)
+    if len(tb) < 1:
+        tb.append(0)
+    if len(tb) < 2:
+        tb.append(0)
+    ta[0] += tb[0]
+    ta[1] += tb[1]
+    return tuple(ta)
