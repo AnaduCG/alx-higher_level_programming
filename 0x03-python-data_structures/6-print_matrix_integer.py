@@ -7,9 +7,9 @@
 
 def print_matrix_integer(matrix=[[]]):
     if not matrix:
-        print('$')
+        print("{}".format('$'))
         return
     for i in matrix:
         for j in i:
             print("{:2d}".format(j), end='')
-        print('$')
+        print("{}".format('$'))
