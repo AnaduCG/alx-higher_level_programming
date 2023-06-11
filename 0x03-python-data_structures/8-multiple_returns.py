@@ -8,5 +8,7 @@
 
 def multiple_returns(sentence):
     if sentence == '':
-        sentence = None
-    return (len(sentence), sentence[0])
+        fc = None
+    else:
+        fc = sentence[0]
+    return (len(sentence), fc)
