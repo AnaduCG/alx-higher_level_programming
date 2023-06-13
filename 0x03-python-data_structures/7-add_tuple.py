@@ -16,6 +16,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
         tb.append(0)
     if len(tb) < 2:
         tb.append(0)
-    ta[0] += tb[0]
-    ta[1] += tb[1]
-    return tuple(ta)
+    return (ta[0] + tb[0], ta[1] + tb[1])
