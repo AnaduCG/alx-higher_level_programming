@@ -6,9 +6,7 @@
 
 
 def print_matrix_integer(matrix=[[]]):
-    if not matrix:
-        return
-    for i in matrix:
-        for j in i:
-            print("{:2d}".format(j), end='')
-        print("{}".format('$'))
+    for row in matrix:
+        for val in row:
+            print("{:2d}".format(val), end=(''))
+        print("$")
