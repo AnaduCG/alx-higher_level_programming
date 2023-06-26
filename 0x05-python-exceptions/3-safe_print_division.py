@@ -3,16 +3,13 @@ def safe_print_division(a, b):
     """a function that divides 2 integers and prints the result.
 
     Args:
-        a (int)
-        b (int)
+        a (int): numerator
+        b (int): denominator
     """
     try:
         div = a/b
-    except ZeroDivisionError:
-        div = None
-    except ValueError:
-        div = None
-    except TypeError:
+    except (ZeroDivisionError):
         div = None
     finally:
-        print("inside result{}".format(div))
+        print("inside result {}".format(div))
+    return div
