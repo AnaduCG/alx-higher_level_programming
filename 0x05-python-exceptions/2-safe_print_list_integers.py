@@ -11,15 +11,15 @@ def safe_print_list_integers(my_list=[], x=0):
     Returns:
         int: Returns the real number of integers printed
     """
-    count = 0
-    try:
-        for i in my_list[:x]:
-            try:
-                print("{:d}".format(i), end="")
-                count += 1
-            except (ValueError, TypeError):
-                pass
-    except IndentationError:
-        pass
+    count = j = 0
+    for i in my_list[:x]:
+        try:
+            print("{:d}".format(i), end="")
+            count += 1
+            j += 1
+        except (TypeError, ValueError):
+            j += 1
+    if j != x:
+        raise IndexError()
     print()
     return count
