@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+"""a class Square that defines a square
+    the class is made up of one instantiation with
+    a private instance attribute (size)
+"""
 
 
 class Square:
