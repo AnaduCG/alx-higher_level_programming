@@ -47,7 +47,7 @@ class Square:
         """public instance method
 
         Returns:
-            _type_: _description_
+            int: area of the circle
         """
         return self.__size ** 2
 
