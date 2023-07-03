@@ -107,7 +107,7 @@ class Rectangle:
         shape = ""
         for _ in range(self.__height):
             shape += ("#" * self.__width) + "\n"
-        return shape
+        return shape[:-1]
 
     def __repr__(self):
         """built-in python method that converts an object instance to int

@@ -107,4 +107,4 @@ class Rectangle:
         shape = ""
         for _ in range(self.__height):
             shape += ("#" * self.__width) + "\n"
-        return shape
+        return shape[:-1]
