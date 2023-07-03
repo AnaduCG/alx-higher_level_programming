@@ -4,14 +4,14 @@
 Traceback (most recent call last):
 	  ...
 TypeError: last_name must be a string
+
 >>> say_my_name(["Anadu"], "Godwin")
 Traceback (most recent call last):
 	  ...
 TypeError: first_name must be a string
->>> say_my_name(["Anadu"], {"Godwin": "Software Engineer"})
-Traceback (most recent call last):
-	  ...
-TypeError: first_name must be a string
+
+>>> say_my_name("Anadu")
+My name is Anadu
 
 >>> say_my_name("Anadu", "Godwin")
 My name is Anadu Godwin

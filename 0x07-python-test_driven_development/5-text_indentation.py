@@ -18,7 +18,7 @@ def text_indentation(text):
     line = ""
     for i in text:
         line += i
-        if line[-1] in( ".", "?", ":"):
+        if line[-1] in (".", "?", ":"):
             print("{}{}".format(line.strip(), "\n"))
             line = ""
     if line:

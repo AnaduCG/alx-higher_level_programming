@@ -5,21 +5,6 @@
 """
 
 
-def is_matrix(matrix):
-    """a function that checks if a value data type is a matrix
-
-    Args:
-        matrix (any): value to be checked
-
-    Returns:
-        Bool: returns True if the value is a matrix array otherwise False
-    """
-    if isinstance(matrix, list) and\
-       all(isinstance(row, list) for row in matrix):
-        return True
-    return False
-
-
 def matrix_divided(matrix, div):
     """_summary_
 
@@ -38,10 +23,6 @@ def matrix_divided(matrix, div):
         array: returns the matrix with divided values
     """
     new_matrix = []
-
-    if not is_matrix(matrix):
-        raise TypeError("matrix must be a matrix\
-(list of lists) of integers/floats")
 
     num = len(matrix[0])
     if type(div) not in (int, float):
