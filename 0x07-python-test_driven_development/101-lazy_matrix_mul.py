@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import numpy as np
 
+
 """a program tat multiplies the values of a matrix and returns
                 a new matrix containing the value from the result
                 of the matrix multiplication
@@ -42,6 +43,10 @@ the same size".format(name))
 integers or floats".format(name))
 
 
+"""function that prints matrix using numpy
+"""
+
+
 def lazy_matrix_mul(m_a, m_b):
     """a function that multiplies 2 matrices
             using numpy module
@@ -69,5 +74,6 @@ def lazy_matrix_mul(m_a, m_b):
     try:
         result = np.matmul(m_a, m_b)
         return result
-    except ValueError:
+    except Exception:
+        print("Shit!")
         raise ValueError("m_a and m_b can't be multiplied")
