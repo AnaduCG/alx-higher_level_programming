@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" importing numpy module """
 import numpy as np
 
 
