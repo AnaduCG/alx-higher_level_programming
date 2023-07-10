@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""A simple python class
+"""
 
 
 class BaseGeometry:

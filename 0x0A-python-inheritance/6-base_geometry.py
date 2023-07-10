@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""a python class that handles Exception
+        with an area() method
+"""
 
 
 class BaseGeometry:

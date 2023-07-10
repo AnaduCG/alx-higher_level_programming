@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""a python class that returns a formatted string
+"""
 Rectangle = __import__('9-rectangle').Rectangle
 """
 getting the Rectangle module for inheritance

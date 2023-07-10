@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+"""python class that checks the class inheritance of object
 """
 
 

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""python class that compares the class type of an object
+"""
 
 
 def is_kind_of_class(obj, a_class):

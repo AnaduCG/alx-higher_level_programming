@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""a python class that gets the area of a square
+"""
+
 Rectangle = __import__('9-rectangle').Rectangle
 
 """

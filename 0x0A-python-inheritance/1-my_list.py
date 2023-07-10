@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""python class that prints an in list
+"""
 
 
 class MyList(list):

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""function that compares the class type of an object
+"""
 
 
 def is_same_class(obj, a_class):
