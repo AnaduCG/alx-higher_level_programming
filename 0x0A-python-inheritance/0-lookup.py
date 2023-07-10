@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+Creating a class that returns a list object
+"""
 
 def lookup(obj):
     """A  class that prints lookup  list of available
