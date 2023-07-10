@@ -2,7 +2,7 @@
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 """
-importing the BaseGeometry for inheritance
+getting the BaseGeometry for inheritance
 """
 
 

@@ -2,7 +2,7 @@
 Rectangle = __import__('9-rectangle').Rectangle
 
 """
-importing the Rectangle module for inheritance
+getting the Rectangle module for inheritance
 """
 
 
