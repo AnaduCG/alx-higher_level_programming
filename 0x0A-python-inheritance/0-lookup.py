@@ -2,7 +2,8 @@
 
 
 def lookup(obj):
-    """_summary_
+    """A  class that prints lookup  list of available
+        attributes and methods of an object
 
     Args:
         obj (class): parent class being inherited
