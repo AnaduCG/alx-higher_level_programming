@@ -2,18 +2,18 @@
 This project aims to provide a comprehensive understanding of input/output operations in Python, specifically focusing on file handling, cursor manipulation, file closure, the usage of the with statement, JSON, serialization, and deserialization. It includes examples demonstrating how to perform file operations, convert Python data structures to JSON strings, and vice versa.
 
 ## Table of Contents
-Opening a File
-Writing Text to a File
-Reading the Full Content of a File
-Reading a File Line by Line
-Moving the Cursor in a File
-Closing a File
-Understanding and Using the with Statement
-Introduction to JSON
-Serialization
-Deserialization
-Converting Python Data Structures to JSON Strings
-Converting JSON Strings to Python Data Structures
+ - Opening a File
+ - Writing Text to a File
+ - Reading the Full Content of a File
+ - Reading a File Line by Line
+ - Moving the Cursor in a File
+ - Closing a File
+ - Understanding and Using the with Statement
+ - Introduction to JSON
+ - Serialization
+ - Deserialization
+ - Converting Python Data Structures to JSON Strings
+ - Converting JSON Strings to Python Data Structures
 ## 1. Opening a File 
 To open a file in Python, you can use the open() function. It requires specifying the file path and the mode (e.g., read, write, append). For example:
 
