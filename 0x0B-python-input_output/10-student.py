@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""A srudent class in pythom
+"""
 
 
 class Student:
