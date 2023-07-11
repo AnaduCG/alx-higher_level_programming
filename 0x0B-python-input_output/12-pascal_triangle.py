@@ -9,7 +9,7 @@ def pascal_triangle(n):
 
     arg n
     int: triangle size
-    Returns: 
+    Returns:
     arr: array of ints
     """
     if n <= 0:
