@@ -1,7 +1,17 @@
 #!/usr/bin/python3
+"""Oascal triangle algorithm
+"""
 
 
 def pascal_triangle(n):
+    """function that prints the
+    oascal troangle of ints
+
+    arg n
+    int: triangle size
+    Returns: 
+    arr: array of ints
+    """
     if n <= 0:
         return []
 
