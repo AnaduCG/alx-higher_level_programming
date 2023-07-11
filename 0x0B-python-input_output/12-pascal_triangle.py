@@ -21,6 +21,6 @@ def pascal_triangle(n):
         for j in range(1, i):
             rw.append(tr[i-1][j-1] + tr[i-1][j])
         rw.append(1)
-        tr.append(row)
+        tr.append(rw)
 
     return tr
