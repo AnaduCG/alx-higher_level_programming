@@ -14,14 +14,14 @@ This project aims to provide a comprehensive understanding of input/output opera
  - Deserialization
  - Converting Python Data Structures to JSON Strings
  - Converting JSON Strings to Python Data Structures
-## 1. Opening a File 
+## 1. Opening a File
 To open a file in Python, you can use the open() function. It requires specifying the file path and the mode (e.g., read, write, append). For example:
 
 
 ```Python
 file = open("file.txt", "r")  # Open file.txt in read mode
 ```
-## 2. Writing Text to a File 
+## 2. Writing Text to a File
 To write text to a file, open the file in write mode ("w") or append mode ("a") and use the write() method to write the content. For example:
 
 
@@ -30,7 +30,7 @@ file = open("file.txt", "w")  # Open file.txt in write mode
 file.write("Hello, World!")
 file.close()  # Remember to close the file
 ```
-## 3. Reading the Full Content of a File 
+## 3. Reading the Full Content of a File
 To read the full content of a file, open the file in read mode ("r") and use the read() method. It will return the entire content as a string. For example:
 
 
@@ -86,16 +86,16 @@ with open("file.txt", "r") as file:
 
 print(content)  # File is automatically closed outside the 'with' block
 ```
-## 8. Introduction to JSON 
+## 8. Introduction to JSON
 JSON (JavaScript Object Notation) is a lightweight data interchange format. It is commonly used to store and transmit data between a server and a web application. In Python, the json module provides functions for working with JSON data.
 
-## 9. Serialization 
+## 9. Serialization
 Serialization is the process of converting an object's state to a format that can be stored or transmitted. In the context of JSON, it refers to converting a Python data structure into a JSON string.
 
 ## 10. Deserialization
 Deserialization is the reverse process of serialization. It involves converting a serialized format (such as a JSON string) back into a Python data structure.
 
-## 11. Converting Python Data Structures to JSON Strings 
+## 11. Converting Python Data Structures to JSON Strings
 To convert a Python data structure to a JSON string, you can use the json.dumps() function. It serializes the object into a JSON formatted string. For example:
 
 
@@ -111,7 +111,7 @@ data = {
 json_string = json.dumps(data)
 print(json_string)
 ```
-## 12. Converting JSON Strings to Python Data Structures 
+## 12. Converting JSON Strings to Python Data Structures
 To convert a JSON string to a Python data structure, you can use the json.loads() function. It deserializes the JSON string into a corresponding Python object. For example:
 
 
