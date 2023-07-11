@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-"""importing json
-"""
-import json
 """serializing objects and
 simple data types
 """
