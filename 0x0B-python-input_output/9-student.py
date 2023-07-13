@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+"""creating a student class
+"""
 
 class Student:
     """class representation of a student
